@@ -40,6 +40,5 @@ exemplos = [
     "repita a ate ((x>y)"               
 ]
 
-# Testar todos
 for ex in exemplos:
     print(f"{ex} -> {'valido' if reconhecer_comando(ex) else 'invalido'}")
